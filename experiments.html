@@ -24,5 +24,49 @@
         </ul>
       </nav>
     </header>
+    <main>
+      <div>
+      <h2>Changes the picture due to size of window</h2>
+      <picture>
+        <source media="(min-width:650px)" srcset="media/Resume.PNG"/>
+        <source media="(min-width:465px)" srcset="media/Bryson.jpg"/>
+        <img src="media/Resume.PNG" alt="Resume Test">
+      </picture>
+      <iframe src="https://www.ucsd.edu" title="UCSD Homepage"></iframe>
+      </div>
+      <svg height="500" width="500">
+        <circle cx="310" cy="250" r="50" stroke="blue" fill="cyan"></circle>
+      </svg>
+      <aside>
+        <label for="fruits">Choose Fruit:</label>
+        <select name="fruits" id="fruits">
+          <optgroup label="Tropical Fruits">
+            <option value="pineapple">Pineapple</option>
+            <option value="lychee">Lychee</option>
+          </optgroup>
+          <optgroup label="Citrus Fruits">
+            <option value="orange">Orange</option>
+            <option value="Lemon">Lemon</option>
+          </optgroup>
+        </select>
+      </aside>
+      <section>
+        <h2>Biology Diagrams</h2>
+        <figure>
+          <img src="media/Experiments/cell.jpg" alt="Image of Cell">
+          <figcaption>Fig.1 Diagram of the Cell</figcaption>
+          <img src="media/Experiments/lung.jpg" alt="Image of Lung">
+          <figcaption>Fig.2 Diagram of the Lung</figcaption>
+        </figure>
+      </section>
+      <template>
+        <img src="media/Experiments/cell.jpg" alt="Image of Cell">
+        <script>
+
+        </script>
+      </template>
+      <label for="words">Choose a word</label>
+    </main>
+
     </body>
 </html>
